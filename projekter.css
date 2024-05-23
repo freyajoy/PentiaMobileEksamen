@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
+    margin: 0;
   }
 
 .slide1 {
     background-color: #201B59;
 }
 
-.slide1 {
+.slide2 {
     background-color: #04393B;
 
 }
