@@ -9,5 +9,8 @@
 
 .slide2 {
     background-color: #04393B;
+}
 
+.img-size {
+    max-width: 100%;
 }
