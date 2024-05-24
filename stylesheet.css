@@ -1,7 +1,5 @@
 /* Universal root */
 *{
-    /* margin-left:  20px;
-    margin-right: 20px; */
     padding: 0;
 
     font-family: "Space Grotesk", sans-serif;
@@ -29,7 +27,7 @@
 }
 
 /* Knapper */
-.cta-groen{
+.cta-groen {
     background-color: none;
     border: solid 1px var(--lysegroen);
     color: var(--lysegroen);
@@ -37,7 +35,7 @@
     padding: 15px;
 }
 
-.cta-violet{
+.cta-violet {
     background-color: none;
     border: solid 1px var(--lyseviolet);
     color: var(--lyseviolet);
@@ -118,71 +116,71 @@
 
 
 
-@media (max-width:430px){ 
+@media (min-width:430px){ 
     /* Skrift typer pc */
-.pc-storoverskrift h1{
+.pc-storoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 60px;
     line-height: 70px;
     font-weight: 700;
 }
 
-.pc-menu p{
+.pc-menu {
     font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 400;
 }
 
-.pc-overskrift p{
+.pc-overskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 38px;
     line-height: 40px;
     font-weight: 400;
 }
 
-.pc-lillebrød p{
+.pc-lillebrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-lilleoverskrift p{
+.pc-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
-.pc-storbrød p{
+.pc-storbrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-normalbrød p{
+.pc-normalbrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 28px;
     line-height: 33px;
     font-weight: 400;
 }
 
-.pc-tynd-lilleoverskrift p{
+.pc-tynd-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-ctatekst p{
+.pc-ctatekst {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
 }
 
-.m-logo p{
+.m-logo {
     font-family: "Space Grotesk", sans-serif;
     font-size: 100px;
     line-height: 70px;
