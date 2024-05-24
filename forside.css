@@ -36,11 +36,11 @@ nav p {
 
 @media only screen and (min-width: 600px) {
     nav {
-        padding: 0 63px 0 63px;
+        padding: 0 60px 0 60px;
     }
 
     .forside {
-        padding: 0 63px 0 63px;
+        padding: 0 60px 0 60px;
     }
 
     video {
