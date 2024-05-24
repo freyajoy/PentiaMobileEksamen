@@ -6,13 +6,13 @@
 .slide1 {
     background-color: #201B59;
     padding: 40px 20px 40px 20px;
-    height: 600px;
+    height: 550px;
 }
 
 .slide2 {
     background-color: #04393B;
     padding: 40px 20px 40px 20px;
-    height: 600px;
+    height: 550px;
 }
 
 .projekt {
@@ -21,6 +21,7 @@
 
 .img-size {
     max-width: 100%;
+    margin-top: 20px;
 }
 
 /* pile */
@@ -29,7 +30,7 @@
     background: none;
     border: none;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -55,8 +56,10 @@
 
 .slide1 h2 {
     color: #D0BBE6;
+    margin: 20px 0px 20px 0px;
 }
 
 .slide2 h2 {
     color: #8ECFD2;
+    margin: 20px 0px 20px 0px;
 }
