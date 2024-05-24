@@ -4,20 +4,33 @@
   }
 
 .slide1 {
-    background-color: #201B59;
+    background-color: var(--kejerviolet);
     padding: 40px 20px 40px 20px;
-    height: 550px;
 }
 
 .slide2 {
-    background-color: #04393B;
+    background-color: var(--kongegroen);
     padding: 40px 20px 40px 20px;
-    height: 550px;
 }
 
 .projekt {
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    transition: left 0.5s ease-in-out; */
     display: none;
 }
+
+/* .projekt.vis {
+    display: block;
+    left: 0;
+}
+
+.projekt.exit {
+    left: -100%;
+} */
 
 .img-size {
     max-width: 100%;
@@ -47,19 +60,51 @@
 /* skrift farve */
 
 .slide1 p {
-    color: #ECEBFF;
+    color: var(--lyseviolet);
 }
 
 .slide2 p {
-    color: #DCF0F0;
+    color: var(--lysegroen);
 }
 
 .slide1 h2 {
-    color: #D0BBE6;
+    color: var(--lavendel);
     margin: 20px 0px 20px 0px;
+    max-width: 500px;
 }
 
 .slide2 h2 {
-    color: #8ECFD2;
+    color: var(--havskum);
     margin: 20px 0px 20px 0px;
+    max-width: 500px;
+}
+
+@media only screen and (min-width: 800px) {
+    .slide1 {
+        padding: 40px 60px 60px 60px;
+    }
+    
+    .slide2 {
+        padding: 40px 60px 60px 60px;
+    }
+
+    .pro-pile-overskrift {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pro-tekst-knap {
+        display: flex;
+        align-items: center;
+    }
+
+    .slide1 h2 {
+        margin-right: 40px;
+    }
+    
+    .slide2 h2 {
+        margin-right: 40px;
+    }
 }
