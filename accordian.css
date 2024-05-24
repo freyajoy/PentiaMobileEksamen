@@ -1,6 +1,5 @@
 
 .accordion-indhold {
-    background-color: rgb(4, 0, 255);
 }
 
 .accordion-overskrift {
@@ -27,5 +26,5 @@
 }
 
 .accordion-overskrift:hover {
-    background-color: var(--sand);
+    background-color: rgba(235, 235, 235, 0.6);
   }
