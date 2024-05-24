@@ -5,21 +5,58 @@
 
 .slide1 {
     background-color: #201B59;
+    padding: 40px 20px 40px 20px;
+    height: 600px;
 }
 
 .slide2 {
     background-color: #04393B;
+    padding: 40px 20px 40px 20px;
+    height: 600px;
+}
+
+.projekt {
+    display: none;
 }
 
 .img-size {
     max-width: 100%;
 }
 
+/* pile */
+
+.pile {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
 .pil-left {
-    width: 60px;
+    width: 40px;
+    margin-right: 35px;
 }
 
 .pil-right {
-    width: 60px;
+    width: 40px;
     transform: scaleX(-1);
+}
+
+/* skrift farve */
+
+.slide1 p {
+    color: #ECEBFF;
+}
+
+.slide2 p {
+    color: #DCF0F0;
+}
+
+.slide1 h2 {
+    color: #D0BBE6;
+}
+
+.slide2 h2 {
+    color: #8ECFD2;
 }
