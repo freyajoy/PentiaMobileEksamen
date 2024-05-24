@@ -25,3 +25,7 @@
 .accordion-tekst{
     display: none;
 }
+
+.accordion-overskrift:hover {
+    background-color: var(--sand);
+  }
