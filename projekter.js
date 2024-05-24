@@ -18,5 +18,15 @@ function visProjekter(n) {
     for (i = 0; i < projekter.length; i++) {
         projekter[i].style.display = "none";
     }
-    projekter[projektIndex-1].style.display = "block"; 
+    // for (i = 0; i < projekter.length; i++) {
+    //     projekter[i].classList.remove('vis');
+    //     projekter[i].classList.remove('exit');
+    // }
+    projekter[projektIndex-1].style.display = "block";
+    // requestAnimationFrame(() => {
+    //     prokter[projekterIndex-1].classList.add('vis');
+    // });
+    // if (n > 1) {
+    //     projekter[projektIndex-2].classList.add('exit');
+    // }
 }
