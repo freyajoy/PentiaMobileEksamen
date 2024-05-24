@@ -33,3 +33,17 @@ nav img {
 nav p {
     color: white;
 }
+
+@media only screen and (min-width: 600px) {
+    nav {
+        padding: 0 63px 0 63px;
+    }
+
+    .forside {
+        padding: 0 63px 0 63px;
+    }
+
+    video {
+        margin-bottom: 60px;
+    }
+}
