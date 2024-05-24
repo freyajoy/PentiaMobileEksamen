@@ -46,70 +46,70 @@
 }
 
 /* Skrift typer mobil */
-.m-storoverskrift h1{
+.m-storoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 35px;
     line-height: 40px;
     font-weight: 500;
 }
 
-.m-menu p{
+.m-menu {
     font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 400;
 }
 
-.m-overskrift p{
+.m-overskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 33px;
     font-weight: 400;
 }
 
-.m-lillebrød p{
+.m-lillebrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
 }
 
-.m-lilleoverskrift p{
+.m-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
 
-.m-storbrød p{
+.m-storbrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.m-normalbrød p{
+.m-normalbrød {
     font-family: "Space Grotesk", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
 }
 
-.m-tynd-lilleoverskrift p{
+.m-tynd-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
 }
 
-.m-ctatekst p{
+.m-ctatekst {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
 }
 
-.m-logo p{
+.m-logo {
     font-family: "Space Grotesk", sans-serif;
     font-size: 60px;
     line-height: 70px;

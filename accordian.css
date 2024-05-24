@@ -1,12 +1,11 @@
-main{
-    margin: 0;
+*{
+    margin 0;
 }
-
 .accordion-indhold {
-    background-color: red;
+    background-color: rgb(4, 0, 255);
 }
 
 .accordion-overskrift{
-    display: flex;
-    justify-content: row;
+    background-color: var(--lyssand);
+    cursor: pointer;
 }
