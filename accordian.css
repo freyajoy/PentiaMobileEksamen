@@ -1,6 +1,4 @@
-*{
-    margin 0;
-}
+
 .accordion-indhold {
     background-color: rgb(4, 0, 255);
 }
@@ -9,8 +7,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--kongegroen);
+    background-color: var(--lyssand);
     cursor: pointer;
+    border-top: 1px solid var(--sort);
+
 }
 
 .m-overskrift {
@@ -20,4 +20,8 @@
     margin-left: 10px;
     font-size: 1.9em;
     margin-right: 20px;
+}
+
+.accordion-tekst{
+    display: none;
 }
