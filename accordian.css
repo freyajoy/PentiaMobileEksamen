@@ -5,7 +5,19 @@
     background-color: rgb(4, 0, 255);
 }
 
-.accordion-overskrift{
-    background-color: var(--lyssand);
+.accordion-overskrift {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--kongegroen);
     cursor: pointer;
+}
+
+.m-overskrift {
+    margin-left: 20px;
+}
+.fa-plus {
+    margin-left: 10px;
+    font-size: 1.9em;
+    margin-right: 20px;
 }
