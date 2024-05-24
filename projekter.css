@@ -14,3 +14,12 @@
 .img-size {
     max-width: 100%;
 }
+
+.pil-left {
+    width: 60px;
+}
+
+.pil-right {
+    width: 60px;
+    transform: scaleX(-1);
+}
