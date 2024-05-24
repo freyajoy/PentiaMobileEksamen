@@ -1,0 +1,12 @@
+main{
+    margin: 0;
+}
+
+.accordion-indhold {
+    background-color: red;
+}
+
+.accordion-overskrift{
+    display: flex;
+    justify-content: row;
+}
