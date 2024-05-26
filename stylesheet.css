@@ -1,0 +1,195 @@
+/* Universal root */
+*{
+    padding: 0;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+
+    /* Farver */
+    --kongegroen:#04393B;
+    --havskum:#8ECFD2;
+    --lysegroen:#DCF0F0;
+    --hvid:#FFFFFF;
+    --lyssand:#EBEBEB;
+    --sort:#222222;
+    --kejerviolet:#201B59;
+    --lavendel: #D0BBE6;
+    --lyseviolet:#ECEBFF;
+    --krystalblaa: #0020BE;
+    --himmel:#99CCFF;
+    --lyseblaa:#DCEDF5;
+    --lysegraa:#F9F9F9;
+    --perlegraa: #C8D0DA;
+}
+
+/* Knapper */
+.cta-groen {
+    background: none;
+    border: solid 1px var(--lysegroen);
+    color: var(--lysegroen);
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.cta-violet {
+    background: none;
+    border: solid 1px var(--lyseviolet);
+    color: var(--lyseviolet);
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Skrift typer mobil */
+.m-storoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.m-menu {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.m-overskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.m-lillebrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.m-lilleoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.m-storbrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.m-normalbrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.m-tynd-lilleoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.m-ctatekst {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.m-logo {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+
+
+@media (min-width:430px){ 
+    /* Skrift typer pc */
+.pc-storoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.pc-menu {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.pc-overskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.pc-lillebrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.pc-lilleoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.pc-storbrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.pc-normalbrød {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.pc-tynd-lilleoverskrift {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.pc-ctatekst {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.m-logo {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 100px;
+    line-height: 70px;
+    font-weight: 700;
+} 
+}
+
+
+

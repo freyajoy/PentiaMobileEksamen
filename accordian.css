@@ -1,0 +1,51 @@
+/* Knapperne */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+    transition: 0.4s;
+    
+}
+
+/* Gør sådan så acc er i midten med den rigtige margin */
+.acc-middle{
+    display: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+/* Laver hover/aktiv på knap */
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+  
+/* Teksten */
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/*  */
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
