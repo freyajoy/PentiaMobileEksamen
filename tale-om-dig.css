@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .tale-om-dig {
@@ -20,4 +21,8 @@
 
 .tale-om-dig p {
     padding: 10px 0 10px 0;
+}
+
+.tale-om-dig img{
+    margin: 20px 0 20px 0;
 }
