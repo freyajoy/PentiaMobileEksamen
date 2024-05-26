@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.tale-om-dig {
+    background-color: var(--lysegraa);
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 60px 20px;
+}
+
+.tale-om-dig img {
+    width: 100%;
+}
+
+.tale-om-dig ul {
+    list-style: none;
+    padding: 20px 0 20px 0;
+}
+
+.tale-om-dig p {
+    padding: 10px 0 10px 0;
+}
