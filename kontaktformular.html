@@ -3,13 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekter</title>
+    <title>kontaktformular</title>
+    <link rel="stylesheet" href="kontaktformular.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="kontaktformular.js" defer></script>
 </head>
 <body>
     <main>
-        <section>
-            
+      <section class="kontaktformular">
+            <div class="kontakt-overskrift">
+                <p>Kontakt os</p>
+                <h1>Vil du gerne høre mere?</h1>
+            </div>
+            <div class="kontaktformular-indhold">
+                <div class="venstre">
+                    <img src="images/pentiahouse.png" alt="pentiahouse" class="pentiahouse">
+                </div>
+                <div class="hoejre">
+                    <form class="contact-form">
 
+                        <hr class="form-divider">
+
+                        <div class="from-group">
+                          <label for="fornavn">Fornavn*</label>
+                          <input type="text" id="fornavn" name="fornavn" class="form-control" required>
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="from-group">
+                          <label for="efternavn">Efternavn*</label>
+                          <input type="text" id="efternavn" name="efternavn" class="form-control" required>
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="from-group">
+                          <label for="email">E-mail*</label>
+                         <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="from-group">
+                          <label for="virksomhed">Virksomhed*</label>
+                          <input type="text" id="virksomhed" name="virksomhed" class="form-control" required>
+                        </div>
+
+                        <hr class="form-divider"> 
+
+                        <div class="from-group">
+                          <label for="jobtitel">Jobtitel*</label>
+                          <input type="text" id="jobtitel" name="jobtitel" class="form-control" required>
+                        </div>
+
+                        <hr class="form-divider"> 
+
+                        <div class="from-group">
+                          <label for="telefonnummer">Telefonnummer</label>
+                          <input type="tel" id="telefonnummer" name="telefonnummer" class="form-control">
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="input-box">
+                        <label for="interesse">Jeg vil gerne tale med jer om:</label>
+                        <select id="interesse" name="interesse">
+                            <option value="emne1">Emne 1</option>
+                            <option value="emne2">Emne 2</option>
+                            <option value="emne3">Emne 3</option>
+                        </select>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="betingelser" name="betingelser" class ="checkbox" required>
+                            <label for="betingelser">Jeg accepterer vilkår og betingelser*</label>
+                        </div>
+                        
+                        <button type="submit">Ræk ud</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 </body>
