@@ -1,7 +1,7 @@
 /* Knapperne */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: var(--lyssand);
+    color: var(--sort);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -33,7 +33,7 @@
 .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: var(--hvid);
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
@@ -42,11 +42,17 @@
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #777;
+    color: #ccc;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: var(--sort);
   }
+
+  .divider {
+        border-top: 1.5px solid var(--sort);
+      }
+  
