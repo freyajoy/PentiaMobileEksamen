@@ -3,3 +3,24 @@
     flex-direction: column;
     padding: 40px 20px 40px 20px;
 }
+
+.medarbejder img {
+    width: 100%;
+}
+
+.medarbejder {
+    margin-bottom: 20px;
+}
+
+.medarbejder-knap {
+    align-self: center;
+    margin: 20px 0 20px 0;
+}
+
+@media only screen and (min-width: 430px) {
+    .wrap-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

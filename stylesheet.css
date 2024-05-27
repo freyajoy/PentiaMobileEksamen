@@ -130,62 +130,62 @@
 
 @media (min-width:430px){ 
     /* Skrift typer pc */
-.pc-storoverskrift {
+.m-storoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 60px;
     line-height: 70px;
     font-weight: 700;
 }
 
-.pc-menu {
+.m-menu {
     font-family: "Space Grotesk", sans-serif;
     font-size: 18px;
     line-height: 27px;
     font-weight: 400;
 }
 
-.pc-overskrift {
+.m-overskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 38px;
     line-height: 40px;
     font-weight: 400;
 }
 
-.pc-lillebrød {
+.m-lillebroed {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-lilleoverskrift {
+.m-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
-.pc-storbrød {
+.m-storbroed {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-normalbrød {
+.m-normalbroed {
     font-family: "Space Grotesk", sans-serif;
     font-size: 28px;
     line-height: 33px;
     font-weight: 400;
 }
 
-.pc-tynd-lilleoverskrift {
+.m-tynd-lilleoverskrift {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.pc-ctatekst {
+.m-ctatekst {
     font-family: "Space Grotesk", sans-serif;
     font-size: 20px;
     line-height: 30px;
