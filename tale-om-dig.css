@@ -25,4 +25,16 @@
 
 .tale-om-dig img{
     margin: 20px 0 20px 0;
+    align-self: center;
+}
+
+@media only screen and (min-width: 430px) {
+    .tale-om-dig {
+        padding: 60px 60px 60px 60px;
+    }
+
+    .tale-om-dig img {
+        max-width: 480px;
+        align-self: flex-start;
+    }
 }
