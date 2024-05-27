@@ -2,12 +2,14 @@
 .vaerdi{
     margin-left: 20px;
     margin-right: 20px;  
+    background-color: var(--lysegraa);
 
 }
 .vaerdier-overskrift{
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .centervaerdi {
 display: flex;
 flex-direction: column;
@@ -28,6 +30,6 @@ margin-right: 20px;
         margin-right: 60px;
         flex-direction: row;
         justify-content: center;
-        gap: 60px;
+        gap: 25px;
     }
   }

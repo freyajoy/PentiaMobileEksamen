@@ -1,3 +1,5 @@
+console.log("hejsa freya du kan godt");
+
 let acc = document.getElementsByClassName("accordion");
 let i;
 
