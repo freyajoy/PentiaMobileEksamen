@@ -39,8 +39,8 @@
 
 .cta-violet {
     background: none;
-    border: solid 1px var(--sort);
-    color: var(--sort);
+    border: solid 1px var(--lyseviolet);
+    color: var(--lyseviolet);
     border-radius: 8px;
     padding: 15px;
     cursor: pointer;
@@ -48,8 +48,8 @@
 
 .cta-sort {
     background: none;
-    border: solid 1px var(--lyseviolet);
-    color: var(--lyseviolet);
+    border: solid 1px var(--sort);
+    color: var(--sort);
     border-radius: 8px;
     padding: 15px;
     cursor: pointer;
