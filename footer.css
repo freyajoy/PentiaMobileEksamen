@@ -1,7 +1,43 @@
 .footer-indhold {
-    padding: 20px 40px 20px 40px;
+    padding: 40px 20px 40px 20px;
+    background-color: var(--lysegraa);
 }
 
 .box {
     margin-bottom: 40px;
+}
+
+.logo-footer img {
+    width: 180px;
+    margin: 20px 0 20px 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-indhold {
+        padding: 40px 60px 40px 60px;
+    }
+
+    .bund {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 400px;
+    }
+
+    .info-box {
+        display: flex;
+    }
+
+    .box {
+        margin-right: 40px;
+        align-items: center;
+    }
+
+    .logo-footer {
+        margin-right: 40px;
+    }
+
+    .logo-footer img {
+        width: 280px;
+    }
 }
