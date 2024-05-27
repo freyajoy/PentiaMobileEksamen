@@ -1,0 +1,17 @@
+
+.vaerdi{
+    margin-left: 20px;
+    margin-right: 20px;  
+
+}
+.centervaerdi {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width:750px){ 
+    .3-vaerdier{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+  }
