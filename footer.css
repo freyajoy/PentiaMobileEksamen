@@ -1,5 +1,6 @@
 .footer-indhold {
     padding: 40px 20px 40px 20px;
+    background-color: var(--lysegraa);
 }
 
 .box {
@@ -7,7 +8,7 @@
 }
 
 .logo-footer img {
-    width: 200px;
+    width: 180px;
     margin: 20px 0 20px 0;
 }
 
@@ -34,5 +35,9 @@
 
     .logo-footer {
         margin-right: 40px;
+    }
+
+    .logo-footer img {
+        width: 280px;
     }
 }
