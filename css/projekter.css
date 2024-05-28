@@ -21,7 +21,8 @@
 
 .img-size {
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
+    max-height: 400px;
 }
 
 /* pile */
@@ -51,6 +52,14 @@
 }
 
 .slide2 p {
+    color: var(--lysegroen);
+}
+
+.slide1 h3 {
+    color: var(--lyseviolet);
+}
+
+.slide2 h3 {
     color: var(--lysegroen);
 }
 
@@ -95,5 +104,9 @@
     
     .slide2 h2 {
         margin-right: 40px;
+    }
+
+    .img-size {
+        max-height: none;
     }
 }

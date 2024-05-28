@@ -54,9 +54,9 @@
 
   .divider {
         border-top: 1.5px solid var(--sort);
-      }
+  }
   
-      @media (min-width:750px){ 
+      @media (min-width:750px) { 
         .acc-middle{
             margin-left: 60px;
             margin-right: 60px;
