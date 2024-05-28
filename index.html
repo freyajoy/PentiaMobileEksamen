@@ -5,111 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pentia Mobile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/accordian.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/forside.css">
+    <link rel="stylesheet" href="css/kernevaerdier.css">
+    <link rel="stylesheet" href="css/kontaktformular.css">
+    <link rel="stylesheet" href="css/medarbejder.css">
+    <link rel="stylesheet" href="css/projekter.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/tale-om-dig.css">
+
+    <script src="javascript/accordian.js" defer></script>
+    <script src="javascript/kontaktformular.js" defer></script>
+    <script src="javascript/projekter.js" defer></script>
+
 </head>
 <body>
     <main>
         <nav>
-            <img src="" alt="">
+            <img src="images/Pentia-logotype2023-neg.svg" alt="Pentia logo">
             <p>Menu</p>
         </nav>
+
         <section class="forside">
-        <h1>App-udvikling med din forretning i fokus</h1>
-        <img src="" alt="">
+            <h1>App-udvikling med din forretning i fokus</h1>
+            <video controls loop muted>
+            <source src="images/pentia-video-landingpage_1.mp4" type="video/mp4">
+            </video>
         </section>
-        <section class="accordian">
-        </section>
+
         <section class="vaerdier">
             <div class="vaerdier-overskrift">
-                <p>For os er noget af vigigste</p>
-                <p>Vores 3 kerneværdier</p>
+                <p class="m-tynd-lilleoverskrift">For os er noget af vigigste</p>
+                <p class="m-overskrift">Vores 3 kerneværdier</p>
             </div>
-            <div class="3-vaerdier">
+            <div class="centervaerdi">
                 <div class="ansvar">
-                    <p>Ansvar</p>
-                    <p>Som medarbejder i Pentia, forventes det at du er ansvarsbevidst både i forbindelse med dine arbejdsopgaver, samt dine kollegaer, lederere og arbejdsplads.</p>
+                    <p class="m-overskrift">Ansvar</p>
+                    <p class="m-normalbroed ">Vi lægger vægt på ansvarlighed, så for at kunne levere den professionelle løsning, dedikerer vi os til at udvikle højkvalitetsprodukter. Vi er ansvarsbevidst både i arbejdsopgaver men også med kollegaer og ledere. Med godt samarbejde skabes gode løsninger.</p>
                 </div>
                 <div class="respekt">
-                    <p>Respekt</p>
-                    <p>Respekt er fundamentet for vores arbejdskultur. Som medarbejder i Pentia forventes der at udvises respekt både til kollegaer og leder. Et arbejdsmiljø hvor  alle føler sig værdsat.</p>
+                    <p class="m-overskrift">Respekt</p>
+                    <p class="m-normalbroed ">Ære og respekt: overfor kollegaer ligeså som ledere og jer som kunder. At skabe produkter gennem gensidig tillid er med til at sikre et positivt arbejdsmiljø. Et rum hvor vi værdsætter hinanden og sikre  effektive og succesfulde løsninger.</p>
                 </div>
                 <div class="sjov">
-                    <p>Sjov</p>
-                    <p>Solidt arbejde af god kvalitet, kan ikke opnås uden at medarbejderne føler sig trygge og velkomne. Derfor er det også  vigtigt at vi kan have det sjovt med hinanden. </p>
+                    <p class="m-overskrift">Sjov</p>
+                    <p class="m-normalbroed ">Positiv arbejdsatmosfære giver mere produktivitet. Her i Pentia mener vi, at hvor der er plads til smil, er der plads til kreativitet. Så ved at samarbejde med os får du ikke kun professionelle løsninger, du får et gennemarbejdet produkt fra et dedikeret team. </p>
                 </div>
             </div>
         </section>
+
         <section class="projekter">
-            <div class="projekter-overskrift">
-                <p>Projekter</p>
-                <p>Kunde: Odense Sport og Event</p>
+            <div class="projekt">
+                <div class="slide1">
+                    <div class="pro-pile-overskrift">
+                        <div>
+                            <button class="pile">
+                                <img class="pil-left" src="images/pil-violet.svg" alt="pile-ikon">
+                            </button>
+                            <button class="pile">
+                                <img class="pil-right" src="images/pil-violet.svg" alt="pile-ikon">
+                            </button>
+                        </div>
+                        <div>
+                            <p class="m-lilleoverskrift">Projekter</p>
+                            <br>
+                            <p class="m-normalbrød">Kunde: Odense Sport og Event</p>
+                        </div>
+                    </div>
+                    <div class="pro-tekst-knap">
+                        <h2 class="m-overskrift">Odense Sport og Event skaber overblik med ny brugerorienteret app</h2>
+                        <button class="cta-violet">Udforsk projektet</button>
+                    </div>
+                    <img class="img-size" src="images/odensesportogevent-mockup2.jpg" alt="Mockup til Odense Sport og Event app">
+                </div>
             </div>
-            <div class="projekter-main">
-                <h2>Odense Sport og Event skaber overblik med ny brugerorienteret app</h2>
-                <img src="" alt="">
-            </div>
-            <div class="projekter-knap">
-                <button class="cta">
-                Udforsk projektet 
-            </button>
-        </div>
-           
-            <div class="pile">
-                font awesome?
+
+            <div class="projekt">
+                <div class="slide2" class="projekt">
+                    <div class="pro-pile-overskrift">
+                        <div>
+                            <button class="pile">
+                                <img class="pil-left" src="images/pil-groen.svg" alt="pile-ikon">
+                            </button>
+                            <button class="pile">
+                                <img class="pil-right" src="images/pil-groen.svg" alt="pile-ikon">
+                            </button>
+                        </div>
+                        <div>
+                            <p class="m-lilleoverskrift">Projekter</p>
+                            <br>
+                            <p class="m-normalbrød">Kunde: ViborgFF</p>
+                        </div>
+                    </div>
+                    <div class="pro-tekst-knap">
+                        <h2 class="m-overskrift">Ny app styrker fællesskab i klubben</h2>
+                        <button class="cta-groen">Udforsk projektet</button> 
+                    </div>
+                    <img class="img-size" src="images/viborgff-mockup2.jpg" alt="Mockup til VborgFF app">
+                </div>
             </div>
         </section>
+
         <section class="tale-om-dig">
-            <div class="tale-om-dig-overskrift">
-                <p>Skal vi ikke tale om dig i stedet?</p>
-                <p>Tag fat i os - så giver vi sammen dit næste projekt flyvehøjde</p>
-            </div>
-            <div class="cards">
-                <img src="" alt="">
-                <div class="cards-overskrift">
-                    <p>Jonathan Bornemann</p>
-                    <p>Business Director & Partner, Mobile Experience</p>
-                </div>
-                <div class="cards-liste">
-                    <ul>
-                        <li>job@pentia.dk</li>
-                        <li>+45 2990 7799</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cards">
-                <img src="" alt="">
-                <div class="cards-overskrift">
-                    <p>Andreas Rask Lundsgaard</p>
-                    <p>Business Development Director & Partner</p>
-                </div>
-                <div class="cards-liste">
-                    <ul>
-                        <li>arl@pentia.dk</li>
-                        <li>+45 5360 0083</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
+            <p class="m-overskrift">Skal vi ikke tale om dig i stedet?</p>
+            <p>Tag fat i os - så giver vi sammen dit næste projekt flyvehøjde</p>
+            <img src="images/jonathan_1.jpg.webp" alt="billede af Jonathan">
+            <p>Jonathan Bornemann<br>Business Director & Partner, Mobile Experience</p>
+            <ul>
+                <li>job@pentia.dk</li>
+                <li>+45 2990 7799</li>
+                <li>LinkedIn</li>
+            </ul>
         </section>
+
         <section class="medarbejder-container">
-            <div class="medarbejder">
-                <img src="" alt="">
-                <p></p>
+            <h1>Vores medarbejdere</h1>
+            <div class="wrap-container">
+                <div class="medarbejder">
+                    <img src="images/mads.jpg" alt="Billede af Mads">
+                    <p>Mads<br>Udvikler</p>
+                </div>
+                <div class="medarbejder">
+                    <img src="images/sanne.jpg" alt="Billede af Sanne">
+                    <p>Sanne<br>Serviceassistent</p>
+                </div>
+                <div class="medarbejder">
+                    <img src="images/storm.jpg" alt="Billede af Mikael">
+                    <p>Mikael<br>Udvikler</p>
+                </div>
             </div>
-            <div class="medarbejder">
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <div class="medarbejder">
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <div class="medarbejder-cta">
-                <button>Vis mere</button>
+            <div class="medarbejder-knap">
+                <button class="cta-sort">Vis mere</button>
             </div>
         </section>
-        <section class="quotes">
+
+        <!-- <section class="quotes">
             <div class="pile">
                 font awesome?
             </div>
@@ -134,7 +168,8 @@
             <p>Jane Doe</p>
             <p>IT praktikant Odense, Pentia Mobile </p>
            </div>
-        </section>
+        </section> -->
+
         <section class="kontaktformular">
             <div class="kontakt-overskrift">
                 <p>Kontakt os</p>
@@ -142,81 +177,115 @@
             </div>
             <div class="kontaktformular-indhold">
                 <div class="venstre">
-                    <img src="" alt="">
+                    <img src="images/pentiahouse.png" alt="pentiahouse" class="pentiahouse">
                 </div>
                 <div class="hoejre">
+                    
                     <form class="contact-form">
-                        <label for="fornavn">Fornavn*</label>
-                        <input type="text" id="fornavn" name="fornavn" required>
-                        
-                        <label for="efternavn">Efternavn*</label>
-                        <input type="text" id="efternavn" name="efternavn" required>
-                        
-                        <label for="email">E-mail*</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <label for="virksomhed">Virksomhed*</label>
-                        <input type="text" id="virksomhed" name="virksomhed" required>
-                        
-                        <label for="jobtitel">Jobtitel*</label>
-                        <input type="text" id="jobtitel" name="jobtitel" required>
-                        
-                        <label for="telefonnummer">Telefonnummer</label>
-                        <input type="tel" id="telefonnummer" name="telefonnummer">
-                        
-                        <label for="interesse">Jeg vil gerne tale med jer om:</label>
-                        <select id="interesse" name="interesse">
-                            <option value="emne1">Emne 1</option>
-                            <option value="emne2">Emne 2</option>
-                            <option value="emne3">Emne 3</option>
-                        </select>
-                        
+
+                        <hr class="form-divider">
+
+                        <div class="form-group">
+                          <label for="fornavn">Fornavn*</label>
+                          <input type="text" id="fornavn" name="fornavn" class="form-control">
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="form-group">
+                          <label for="efternavn">Efternavn*</label>
+                          <input type="text" id="efternavn" name="efternavn" class="form-control">
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="form-group">
+                          <label for="email">E-mail*</label>
+                          <input type="email" id="email" name="email" class="form-control">
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="form-group">
+                          <label for="virksomhed">Virksomhed*</label>
+                          <input type="text" id="virksomhed" name="virksomhed" class="form-control">
+                        </div>
+
+                        <hr class="form-divider"> 
+
+                        <div class="form-group">
+                          <label for="jobtitel">Jobtitel*</label>
+                          <input type="text" id="jobtitel" name="jobtitel" class="form-control">
+                        </div>
+
+                        <hr class="form-divider"> 
+
+                        <div class="form-group">
+                          <label for="telefonnummer">Telefonnummer</label>
+                          <input type="tel" id="telefonnummer" name="telefonnummer" class="form-control">
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <div class="dropdown-container">
+                          <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Jeg vil gerne tale med jer om:</button>
+                            <div id="dropdown-header" class="dropdown-content">
+                              <a>Pentia generelt</a>
+                              <a>Pentias app-kompetencer</a>
+                              <a>Et konkret projekt</a>
+                              <a>Andet</a>
+                            </div>
+                          </div>
+                        </div>
+
                         <div class="checkbox-container">
-                            <input type="checkbox" id="betingelser" name="betingelser" required>
+                            <input type="checkbox" id="betingelser" name="betingelser" class ="checkbox">
                             <label for="betingelser">Jeg accepterer vilkår og betingelser*</label>
+                            <p class="m-microtekst">Ved registrering giver du samtykke til, at Pentia Group må kommunikere og markedsføre til dig i henhold til Pentias privatlivspolitik. 
+                              Vi behandler dine oplysninger ansvarsfuldt og med respekt for dit privatliv, og du kan til enhver tid trække dit samtykke tilbage.</p>
                         </div>
                         
-                        <button type="submit">Ræk ud</button>
+                        <button class="cta-violet">Ræk ud</button>
                     </form>
                 </div>
             </div>
         </section>
+
         <footer>
             <div class="footer-indhold">
-                <div class="footer-overskrift">
-                    <p>Lad os tales ved!</p>
-                    <div class="dafont-pil-tekst">
-                    <p>Kontakt os </p>
-                    (dafont pil)
-                </div>
-               <div class="logo-tekst">
-                <p>Pentia</p>
-               </div>
-               <div class="footer row">
                 <div class="box">
-                    <p>København</p>
-                    <p>Islands Brygge 55, 2300 København</p>
+                    <h2 class="m-overskrift">Lad os tales ved!</h2>
+                    <p>Kontakt os</p>
                 </div>
-                <div class="box">
-                    <p>Odense</p>
-                    <p>Edisonsvej 2, 5000 Odense</p>
+                <div class="bund">
+                    <div class="info-box">
+                        <div class="box">
+                            <p class="m-lilleoverskrift">København</p>
+                            <p>Islands Brygge 55,<br>2300 København</p>
+                        </div>
+                        <div class="box">
+                            <p class="m-lilleoverskrift">Odense</p>
+                            <p>Edisonsvej 2,<br>5000 Odense</p>
+                        </div>
+                        <div class="box">
+                            <p class="m-lilleoverskrift">Malmö</p>
+                            <p>Södra Förstadsg 1,<br>211 43 Malmö</p>
+                        </div>
+                        <div class="box">
+                            <p>CVR: 20868872<br>LinkedIn<br>Privatlivspolitik</p>
+                        </div>
+                        <div class="box">
+                            <p>+45 7023 3330<br>info@pentia.dk</p>
+                        </div>
+                    </div>
+                    <div class="logo-footer">
+                        <img src="images/Pentia-logotype2023.svg" alt="Pentia logo i sort">
+                    </div>
                 </div>
-                <div class="box">
-                    <p>Malmö</p>
-                    <p>Södra Förstadsg 1, 211 43 Malmö</p>
-                </div>
-                <div class="box">
-                    <p>+45 7023 3330</p>
-                    <p>info@pentia.dk</p>
-                </div>
-                <div class="box">
-                    <p>CVR: 20868872</p>
-                    <p>LinkedIn</p>
-                    <p>Privatlivspolitik</p>
-                </div>
-               </div>
             </div>
         </footer>
+
     </main>
 </body>
 </html>

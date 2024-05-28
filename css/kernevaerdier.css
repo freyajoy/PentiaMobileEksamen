@@ -1,7 +1,6 @@
 
-.vaerdi{
-    margin-left: 20px;
-    margin-right: 20px;  
+.vaerdier {
+    padding: 40px 20px 40px 20px;  
     background-color: var(--lysegraa);
 
 }
@@ -47,6 +46,10 @@ margin-right: 20px;
         padding: 20px;
         margin-left: 60px;
         margin-right: 60px;
+    }
+
+    .vaerdier {
+        padding: 60px;
     }
 
 }
