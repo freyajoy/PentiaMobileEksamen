@@ -1,5 +1,6 @@
 
-function myFunction() {
+function dropdown(event) {
+    event.preventDefault();
     document.getElementById("dropdown-header").classList.toggle("show");
   }
   

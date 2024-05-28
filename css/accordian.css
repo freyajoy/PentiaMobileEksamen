@@ -12,14 +12,16 @@
     font-size: 20px;
     line-height: 33px;
     font-weight: 400;
-    transition: 0.4s;  
+    transition: 0.4s; 
 }
 
 /* Gør sådan så acc er i midten med den rigtige margin */
-.acc-middle{
-    display: center;
-    margin-left: 20px;
-    margin-right: 20px;
+.acc-middle {
+    padding: 60px 20px 60px 20px;
+}
+
+.acc-middle h2 {
+  margin-bottom: 40px;
 }
   
 /* Laver hover/aktiv på knap */
@@ -56,7 +58,6 @@
   
       @media (min-width:750px){ 
         .acc-middle{
-            display: center;
             margin-left: 60px;
             margin-right: 60px;
         }
