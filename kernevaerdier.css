@@ -39,9 +39,10 @@ margin-right: 20px;
     }
 
     .centervaerdi {
+        display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 25px;
+        gap: 40px;
         text-align: left;
         padding: 20px;
         margin-left: 60px;
