@@ -4,12 +4,11 @@
 
 .kontaktformular {
 background-color: #201b59;
-padding: 40px 20px 40px 20px;
+padding: 60px 20px 60px 20px;
 
 }
 .kontakt-overskrift{
 color: #d0bbe6;
-margin-left: 20px;
 
 }
 
@@ -18,25 +17,23 @@ color:#d0bbe6;
 
 }
 
-.from-group {
-    margin-top: 40px;
+.form-group {
+    margin-top: 30px;
     margin-bottom: 5px;
-    margin-left: 20px;
 }
 
-.from-group label {
+.form-group label {
 display: block;
 margin-bottom: 10px;
 
 }
 .form-divider {
     color: #d0bbe6;
-    width: 350px;
-    margin-left: 35px;
+    width: 100%;
 
 }
 
-.from-group .form-control {
+.form-group .form-control {
 
    width: 100%; 
    background-color: #201b59;
@@ -46,41 +43,24 @@ margin-bottom: 10px;
    
 }
 .pentiahouse {
-    width: 80%;
-    height: 200px;
-    margin-left: 40px;
+    width: 100%;
     align-items: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
 }
 
-.input-box {
-
-    border: 2px solid #d0bbe6;
-    width: 320px;
-    height: 50px;
-    align-items: center;
-    margin-left: 35px;
-    margin-top: 40px;
-    padding: 15px;
-    border-radius: 10px;
+.form-group input {
+    all: unset;
 }
 
 .checkbox {
 
     width: 20px;
     height: 20px;
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-bottom: 40px;
     border-radius: 1px solid #d0bbe6;
     color: #201b59;
 
 }
-
-/* .submit button {
-
-
-} */
 
 /* Dropdown: */
 
