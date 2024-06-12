@@ -1,113 +1,87 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
   }
+.citater {
+    position: relative;
+    width: 100%;
+}
+
+.slide1{
+    padding: 20px;
+    color: var(--lyseviolet);
+}
+
+.slide2{
+    padding: 20px;
+    color: var(--lysegroen);
+}
+
+.citat {
+    display: none;
+    text-align: center;
+
+
+}
+
+.pro-pile-overskrift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pil-right{
+    transform: rotate(3.142rad);
+}
+.pile {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.pil-left, .pil-right {
+    width: 30px;
+    height: 30px;
+}
+
+.pro-tekst-knap {
+    margin: 20px 0;
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.m-overskrift {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.m-normalbroed {
+    font-size: 1em;
+    margin: 5px 0;
+}
 
 .slide1 {
     background-color: var(--kejerviolet);
-    padding: 40px 20px 40px 20px;
-    height: 800px;
+  
 }
 
 .slide2 {
     background-color: var(--kongegroen);
-    padding: 40px 20px 40px 20px;
-    height: 800px;
-}
-
-.projekt {
-    display: none;
-}
-
-.img-size {
-    max-width: 100%;
-    margin-top: 40px;
-    max-height: 400px;
-}
-
-/* pile */
-
-.pile {
-    background: none;
-    border: none;
-    padding: 0;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.pil-left {
-    width: 40px;
-    margin-right: 35px;
-}
-
-.pil-right {
-    width: 40px;
-    transform: scaleX(-1);
-}
-
-/* skrift farve */
-
-.slide1 p {
-    color: var(--lyseviolet);
-}
-
-.slide2 p {
-    color: var(--lysegroen);
-}
-
-.slide1 h3 {
-    color: var(--lyseviolet);
-}
-
-.slide2 h3 {
-    color: var(--lysegroen);
-}
-
-.slide1 h2 {
-    color: var(--lavendel);
-    margin: 20px 0px 20px 0px;
-    max-width: 500px;
-}
-
-.slide2 h2 {
-    color: var(--havskum);
-    margin: 20px 0px 20px 0px;
-    max-width: 500px;
+    
 }
 
 @media only screen and (min-width: 750px) {
-    .slide1 {
-        padding: 40px 60px 60px 60px;
-        height: 900px;
-    }
     
-    .slide2 {
-        padding: 40px 60px 60px 60px;
-        height: 900px;
-    }
-
-    .pro-pile-overskrift {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .pro-tekst-knap {
-        display: flex;
-        align-items: center;
-    }
-
-    .slide1 h2 {
-        margin-right: 40px;
-    }
-    
-    .slide2 h2 {
-        margin-right: 40px;
-    }
-
-    .img-size {
-        max-height: none;
-    }
+   
 }
