@@ -4,6 +4,10 @@
     padding: 40px 20px 40px 20px;
 }
 
+.medarbejder-container h2 {
+    margin-bottom: 40px;
+}
+
 .medarbejder img {
     width: 100%;
     max-width: 480px;
