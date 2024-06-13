@@ -81,7 +81,15 @@
     
 }
 
-@media only screen and (min-width: 750px) {
-    
-   
+@media (min-width: 768px) {
+    .pro-pile-overskrift {
+        flex-direction: column;
+    }
+    .piles {
+        margin-top: 0;
+        order: 2; /* Move piles to the bottom on larger screens */
+    }
+    .pro-tekst-knap, .profil {
+        order: 1;
+    }
 }
