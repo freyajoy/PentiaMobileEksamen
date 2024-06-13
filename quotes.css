@@ -8,6 +8,17 @@
     width: 100%;
 }
 
+
+
+.pro-pile-overskrift {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
 .slide1{
     padding: 20px;
     color: var(--lyseviolet);
@@ -43,16 +54,33 @@
 .pil-left, .pil-right {
     width: 30px;
     height: 30px;
+    
 }
 
 .pro-tekst-knap {
     margin: 20px 0;
 }
 
+.pro-tekst-knap h2{
+    padding-bottom: 15px;
+}
+
 .profil {
     display: flex;
-    flex-direction: column;
+    text-align: left;
     align-items: center;
+}
+
+.profil-tekst {
+    margin-bottom: 5px; /* Juster denne værdi for at ændre afstanden mellem p-elementerne */
+}
+
+
+
+.profil img{
+    height: 65px;
+    width: 65px;
+    margin-right: 10px ;
 }
 
 .img-size {
@@ -61,15 +89,7 @@
     border-radius: 50%;
 }
 
-.m-overskrift {
-    font-size: 1.5em;
-    margin: 0;
-}
 
-.m-normalbroed {
-    font-size: 1em;
-    margin: 5px 0;
-}
 
 .slide1 {
     background-color: var(--kejerviolet);
@@ -82,14 +102,18 @@
 }
 
 @media (min-width: 768px) {
-    .pro-pile-overskrift {
-        flex-direction: column;
+
+    .slide1{
+        padding: 60px;
+        color: var(--lyseviolet);
     }
-    .piles {
-        margin-top: 0;
-        order: 2; /* Move piles to the bottom on larger screens */
+    
+    .slide2{
+        padding: 60px;
+        color: var(--lysegroen);
     }
-    .pro-tekst-knap, .profil {
-        order: 1;
+
+    .pro-tekst-knap h2{
+        padding-bottom: 30px;
     }
 }
