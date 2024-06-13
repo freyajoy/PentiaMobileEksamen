@@ -30,6 +30,7 @@
     .wrap-container {
         display: flex;
         justify-content: space-between;
+        gap: 20px;
     }
     .medarbejder img {
         max-width: 440px;

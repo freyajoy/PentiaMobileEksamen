@@ -13,14 +13,12 @@
     padding: 20px;
     color: var(--lyseviolet);
     background-color: var(--kejerviolet);
-    height: 400px;
 }
 
 .quote2 {
     padding: 20px;
     color: var(--lysegroen);
     background-color: var(--kongegroen);
-    height: 400px;
 }
 
 .citat {
@@ -89,13 +87,11 @@
     .quote1{
         padding: 60px;
         color: var(--lyseviolet);
-        height: 550px;
     }
     
     .quote2{
         padding: 60px;
         color: var(--lysegroen);
-        height: 550px;
     }
 
     .pro-tekst-knap h2{
