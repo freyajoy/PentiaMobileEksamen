@@ -9,14 +9,14 @@
     width: 100%;
 }
 
-.slide1{
+.quote1 {
     padding: 20px;
     color: var(--lyseviolet);
     background-color: var(--kejerviolet);
     height: 400px;
 }
 
-.slide2{
+.quote2 {
     padding: 20px;
     color: var(--lysegroen);
     background-color: var(--kongegroen);
@@ -86,13 +86,13 @@
 
 @media (min-width: 768px) {
 
-    .slide1{
+    .quote1{
         padding: 60px;
         color: var(--lyseviolet);
         height: 550px;
     }
     
-    .slide2{
+    .quote2{
         padding: 60px;
         color: var(--lysegroen);
         height: 550px;
