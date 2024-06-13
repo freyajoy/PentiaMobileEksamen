@@ -8,13 +8,6 @@
     width: 100%;
 }
 
-
-.pile-flow{
-    
-}
-
-
-
 .slide1{
     padding: 20px;
     color: var(--lyseviolet);
@@ -28,8 +21,6 @@
 .citat {
     display: none;
     text-align: center;
-
-
 }
 
 .pro-pile-overskrift {
@@ -38,19 +29,24 @@
     align-items: center;
 }
 
-.pil-right{
-    transform: rotate(3.142rad);
+.pile-flow{
+    align-self: flex-start;
 }
+
 .pile {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.pil-left, .pil-right {
-    width: 30px;
-    height: 30px;
-    
+.pil-left {
+    width: 40px;
+    margin-right: 35px;
+}
+
+.pil-right {
+    width: 40px;
+    transform: scaleX(-1);
 }
 
 .pro-tekst-knap {
@@ -111,5 +107,9 @@
 
     .pro-tekst-knap h2{
         padding-bottom: 30px;
+    }
+
+    .pile-flow{
+        align-self: flex-end;
     }
 }
