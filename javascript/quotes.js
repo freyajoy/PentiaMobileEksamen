@@ -22,9 +22,9 @@ function showQuotes(n) {
 }
 
 // Add click event listeners to each button
-let pileKnapper = document.querySelectorAll(".pile-1");
+let pileKnapperQ = document.querySelectorAll(".pile-1");
 
-pileKnapper.forEach((knap, i) => {
+pileKnapperQ.forEach((knap, i) => {
     knap.addEventListener("click", function() {
         if (i % 2 === 0) {
             // Left arrow
