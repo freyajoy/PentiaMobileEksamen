@@ -22,7 +22,7 @@ function showQuotes(n) {
 }
 
 // Add click event listeners to each button
-let pileKnapper = document.querySelectorAll(".pile");
+let pileKnapper = document.querySelectorAll(".pile-1");
 
 pileKnapper.forEach((knap, i) => {
     knap.addEventListener("click", function() {

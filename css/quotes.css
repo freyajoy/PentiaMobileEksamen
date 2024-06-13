@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.pro-pile-overskrift {
+.pro-pile-overskrift-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,27 +33,27 @@
     align-self: flex-start;
 }
 
-.pile {
+.pile-1 {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.pil-left {
+.pil-left-1 {
     width: 40px;
     margin-right: 35px;
 }
 
-.pil-right {
+.pil-right-1 {
     width: 40px;
     transform: scaleX(-1);
 }
 
-.pro-tekst-knap {
+.pro-tekst-knap-1 {
     margin: 20px 0;
 }
 
-.pro-tekst-knap h2{
+.pro-tekst-knap-1 h2{
     padding-bottom: 15px;
 }
 
@@ -63,7 +63,7 @@
     align-items: center;
 }
 
-.profil-tekst {
+.profil-tekst-1 {
     margin-bottom: 5px; /* Juster denne værdi for at ændre afstanden mellem p-elementerne */
 }
 
@@ -75,7 +75,7 @@
     margin-right: 10px ;
 }
 
-.img-size {
+.img-size-1 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
