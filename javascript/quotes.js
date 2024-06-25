@@ -1,7 +1,7 @@
 let QuotesIndex = 1;
 showQuotes(QuotesIndex);
 
-// Next and previous buttons
+
 function plusQuotes(n) {
     showQuotes(QuotesIndex += n);
 }
@@ -21,7 +21,7 @@ function showQuotes(n) {
     quotes[QuotesIndex-1].style.display = "block";
 }
 
-// Add click event listeners to each button
+
 let pileKnapperQ = document.querySelectorAll(".pile-1");
 
 pileKnapperQ.forEach((knap, i) => {
